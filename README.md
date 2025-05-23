@@ -5,7 +5,7 @@ A minimal, stylish personal homepage featuring:
 - **Current time** (auto-updating)
 - **Local weather** (via [Open-Meteo](https://open-meteo.com/) API)
 - **Quick links** to Gmail, YouTube, GitHub, and Google Drive
-- **Google search** box
+- **Google** search bar
 
 ## Features
 
