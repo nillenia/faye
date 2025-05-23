@@ -1,6 +1,6 @@
 # faye
 
-A minimal personal startpage I made for myself. It will get a lot of updates.
+A minimal personal startpage I made for myself. It will receive updates.
 
 
 ## Features
