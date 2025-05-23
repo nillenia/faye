@@ -3,19 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wave</title>
-    <link rel="stylesheet" href="style.css">   
+    <title>faye</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <link rel="icon" type="image" href="img/favicon.ico">
 </head>
-
 <body>
-    <table>
-        <div id="wave"><img src="img/wave.png"></div>
-    </table>
+    <main class="center">
+        <div class="faye-container">
+            <div class="faye-content-row">
+                <div class="faye-gif-col">
+                    <img src="img/faye.gif" alt="Faye Logo" class="faye-logo">
+                </div>
+                <div class="faye-main-col">
+                    <span class="faye-title">faye</span>
+                    <div class="main-info">
+                        <div class="time-large" id="current-time">--:--</div>
+                        <div class="weather-row">
+                            <span id="weather-info">Loading weather...</span>
+                        </div>
+                    </div>
+                    <form id="search-form" action="https://www.google.com/search" method="get" autocomplete="off">
+                        <input type="text" name="q" placeholder="Search..." autocomplete="off" autofocus>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
-
 </html>
