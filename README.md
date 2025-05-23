@@ -9,7 +9,7 @@ A minimal, stylish personal homepage featuring:
 
 ## Features
 
-- Responsive layout for desktop and mobile
+- Layout for desktop use
 - Clean, modern design with [Nunito](https://fonts.google.com/specimen/Nunito) font
 - Weather auto-detects your location (with permission)
 - Fast and lightweight (no frameworks)
