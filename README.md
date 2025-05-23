@@ -1,30 +1,20 @@
 # faye
 
-A minimal, stylish personal homepage featuring:
+A minimal personal startpage I made for myself:
 
-- **Current time** (auto-updating)
-- **Local weather** (via [Open-Meteo](https://open-meteo.com/) API)
-- **Quick links** to Gmail, YouTube, GitHub, and Google Drive
-- **Google** search bar
 
 ## Features
 
 - Layout for desktop use
-- Clean, modern design with [Nunito](https://fonts.google.com/specimen/Nunito) font
+- Current time
 - Weather auto-detects your location (with permission)
-- Fast and lightweight (no frameworks)
+- Google search bar
 
 ## Usage
 
 1. Clone or download this repository.
-2. Open [`index.html`](index.html) in your browser.
+2. Open [`index.html`](index.html).
 
-## Customization
-
-- Edit quick links in [`index.html`](index.html) under the `.quick-links` section.
-- Change styles in [`style.css`](style.css).
-- Weather and time logic is in [`script.js`](script.js).
-- Replace images in [`img/`](img) as desired.
 
 ## License
 
