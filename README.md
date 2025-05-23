@@ -7,8 +7,6 @@ A minimal, stylish personal homepage featuring:
 - **Quick links** to Gmail, YouTube, GitHub, and Google Drive
 - **Google search** box
 
-![Faye Logo](img/faye.gif)
-
 ## Features
 
 - Responsive layout for desktop and mobile
