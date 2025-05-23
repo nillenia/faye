@@ -24,7 +24,8 @@ function updateWeather() {
                 if (data.current_weather) {
                     const temp = Math.round(data.current_weather.temperature);
                     const weather = data.current_weather.weathercode;
-                    weatherInfo.textContent = `${temp}°C, ${weatherDescription(weather)}`;
+                    const desc = weatherDescription(weather);
+                    weatherInfo.textContent = `${temp}°C, ${desc}`;
                 } else {
                     weatherInfo.textContent = "Weather unavailable";
                 }
@@ -36,6 +37,7 @@ function updateWeather() {
         weatherInfo.textContent = "Location denied";
     });
 }
+
 function weatherDescription(code) {
     const map = {
         0: "Clear",
