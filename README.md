@@ -2,6 +2,7 @@
 
 A minimal personal startpage I made for myself. It will receive updates.
 
+!(img/screenshot.png)
 
 ## Features
 
