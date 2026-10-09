@@ -2,7 +2,7 @@
 
 A minimal personal startpage I made for myself. It will receive updates.
 
-![Screenshot](img/screenshot.png)
+![Screenshot](img/screenshot_new.png)
 
 ## Features
 
